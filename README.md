@@ -4,7 +4,7 @@ This project hosts my personal CV on GitHub Pages as an HTML webpage.
 
 ## Website
 
-You can view my CV online at: [https://USERNAME.github.io/my-cv](https://USERNAME.github.io/my-cv)
+You can view my CV online at: [https://yousefdiab611.github.io/my-cv](https://yousefdiab611.github.io/my-cv)
 
 ## Technologies Used
 
@@ -16,7 +16,7 @@ You can view my CV online at: [https://USERNAME.github.io/my-cv](https://USERNAM
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/USERNAME/my-cv.git
+    git clone https://github.com/yousefdiab611/my-cv.git
     ```
 
 2. Navigate to the project folder:
