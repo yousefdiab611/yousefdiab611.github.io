@@ -6,154 +6,28 @@
     <title>Yousef Gaber Diab - CV</title>
     <!-- Link to Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" href="../wolf-howl_38004.ico">
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #f0f2f5;
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .header {
-            padding-bottom: 20px;
-            border-bottom: 2px solid #ddd;
-        }
-
-        .header h1 {
-            font-size: 2.5em;
-            color: #2c3e50;
-        }
-
-        .header p {
-            font-size: 1.2em;
-            color: #7f8c8d;
-        }
-
-        .header img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
-
-        .contact a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        .contact a:hover {
-            text-decoration: underline;
-        }
-
-        .icons a {
-            margin: 0 10px;
-            color: #3498db;
-            font-size: 1.5em;
-        }
-
-        .icons a:hover {
-            color: #2980b9;
-        }
-
-        .section {
-            margin-top: 30px;
-        }
-
-        h2 {
-            font-size: 1.8em;
-            color: #2980b9;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .experience li {
-            background-color: #ecf0f1;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 15px;
-            transition: all 0.3s ease;
-        }
-
-        .experience li:hover {
-            background-color: #e0e4e5;
-        }
-
-        .skills li {
-            display: inline-block;
-            background-color: #3498db;
-            color: #fff;
-            padding: 8px 15px;
-            border-radius: 20px;
-            margin-right: 10px;
-            margin-bottom: 10px;
-            font-size: 0.9em;
-        }
-
-        /* Media query for responsiveness */
-        @media (max-width: 768px) {
-            .container {
-                padding: 20px;
-            }
-
-            .header h1 {
-                font-size: 2em;
-            }
-
-            .header p {
-                font-size: 1em;
-            }
-
-            h2 {
-                font-size: 1.5em;
-            }
-        }
-    </style>
+    <link rel="icon" href="icon/wolf-howl_38004.ico">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="/html/style.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <!-- Profile picture -->
-            <!-- <img src="/yousefdiab611.github.io/imgs/diab.png" alt="Profile Picture"> -->
+            <div class="profile-image-container">
+                <img src="/yousefdiab611.github.io/imgs/diab.png" alt="Profile Picture" class="profile-image">
+            </div>
 
             <h1>Yousef Gaber Diab</h1>
             <p>DevOps Engineer | Web Developer Full Stack | UI/UX Designer</p>
             <p>Tanta, Elgarbia Egypt | +20 1550012814</p>
-            <p><a href="mailto:dev.daibb@gmail.com">dev.daibb@gmail.com</a></p>
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:dev.daibb@gmail.com">dev.daibb@gmail.com</a>
+            </p>
 
             <!-- Icons for social media -->
             <div class="icons">
-                <a href="mailto:dev.daibb@gmail.com/" target="_blank"><i class="fab fa-gmail"></i></a>
                 <a href="https://www.linkedin.com/in/yousef-diab-5a65431b0/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/yousefdiab611" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.behance.net/godiab" target="_blank"><i class="fab fa-behance"></i></a>
@@ -215,6 +89,17 @@
                 <li>InDesign</li>
             </ul>
         </div>
+
+             <!-- Download CV button -->
+     <div class="cv-download">
+        <a href="/Yousef_Gaber_Diab_CV.pdf" target="_blank" class="download-btn">
+            <i class="fas fa-download"></i> Download My CV
+        </a>
     </div>
+</div>
+
+
+    </div>
+
 </body>
 </html>
