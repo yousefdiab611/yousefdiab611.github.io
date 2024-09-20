@@ -5,86 +5,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yousef Gaber Diab - CV</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            box-sizing: border-box;
         }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
             background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3 {
-            color: #333;
+
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ddd;
         }
-        p {
-            line-height: 1.6;
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
         }
-        .contact {
-            margin-bottom: 20px;
+
+        .header p {
+            font-size: 1.2em;
+            color: #7f8c8d;
         }
+
         .contact a {
+            color: #3498db;
             text-decoration: none;
-            color: #0066cc;
         }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
         .section {
+            margin-top: 30px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #2980b9;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
             margin-bottom: 20px;
         }
-        .skills, .experience, .education, .certifications {
-            list-style: none;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
             padding: 0;
         }
-        .skills li, .experience li, .education li, .certifications li {
+
+        li {
             margin-bottom: 10px;
+        }
+
+        .experience li {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .experience li:hover {
+            background-color: #e0e4e5;
+        }
+
+        .skills li {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+
+        .education, .certifications {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Media query for responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .header p {
+                font-size: 1em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Yousef Gaber Diab</h1>
-        <div class="contact">
-            <p>DevOps Engineer | Web Developer full stack | UI/UX Designer</p>
-            <p>Tanta_Elgarbia Egypt | +20 1550012814</p>
+        <div class="header">
+            <h1>Yousef Gaber Diab</h1>
+            <p>DevOps Engineer | Web Developer Full Stack | UI/UX Designer</p>
+            <p>Tanta, Elgarbia Egypt | +20 1550012814</p>
             <p><a href="mailto:dev.daibb@gmail.com">dev.daibb@gmail.com</a> | <a href="https://www.linkedin.com/in/yousef-diab-5a65431b0/">LinkedIn</a> | <a href="https://github.com/yousefdiab611">GitHub</a> | <a href="https://www.behance.net/godiab">Behance</a></p>
         </div>
-        
+
         <div class="section">
             <h2>Summary</h2>
             <p>Enthusiastic junior DevOps engineer and web developer with extensive experience in backend development fluent in PHP and ASP.net. Problem solver with a strong foundation in software engineering. UI/UX design using Figma and Adobe XD.</p>
         </div>
-        
+
         <div class="section">
             <h2>Experience</h2>
             <ul class="experience">
-                <li>DevOps Engineer | Maven Developments | March 2024 – Now
-                    <ul>
-                        <li>Tools: Git, GitHub, Docker, Terraform, AWS, Ansible, Kubernetes, Jenkins</li>
-                    </ul>
+                <li>
+                    <strong>DevOps Engineer | Maven Developments | March 2024 – Now</strong>
+                    <p>Tools: Git, GitHub, Docker, Terraform, AWS, Ansible, Kubernetes, Jenkins</p>
                 </li>
-                <li>Web Developer | Full Stack | October 2022 – Now
-                    <ul>
-                        <li>HTML, CSS, JavaScript, Bootstrap5, Tailwind, SASS, React, Laravel, ASP.net</li>
-                    </ul>
+                <li>
+                    <strong>Web Developer | Full Stack | October 2022 – Now</strong>
+                    <p>HTML, CSS, JavaScript, Bootstrap5, Tailwind, SASS, React, Laravel, ASP.net</p>
                 </li>
-                <li>UI/UX Designer | October 2023 – Now
-                    <ul>
-                        <li>Designing applications for desktop and phone using Figma and Adobe XD</li>
-                    </ul>
+                <li>
+                    <strong>UI/UX Designer | October 2023 – Now</strong>
+                    <p>Designing applications for desktop and phone using Figma and Adobe XD</p>
                 </li>
             </ul>
         </div>
-        
+
         <div class="section">
             <h2>Education</h2>
             <ul class="education">
                 <li>Bachelor of Information Technology | Borg Alarab Technological University | Alexandria, Egypt | Expected 2026</li>
             </ul>
         </div>
-        
+
         <div class="section">
             <h2>Certifications</h2>
             <ul class="certifications">
@@ -94,15 +174,19 @@
                 <li>DevOps Engineer | Depi - Egypt's Digital Pioneers | March 2024</li>
             </ul>
         </div>
-        
+
         <div class="section">
             <h2>Skills</h2>
             <ul class="skills">
-                <li>Programming Languages: Python</li>
-                <li>Operating Systems: Windows, Linux</li>
-                <li>Concepts: OOP, Data Structure, Clean Code</li>
-                <li>Graphic Design: Adobe Photoshop, Illustrator, InDesign</li>
-                <li>Instructor: Training and preparing course content</li>
+                <li>Python</li>
+                <li>Windows</li>
+                <li>Linux</li>
+                <li>OOP</li>
+                <li>Data Structure</li>
+                <li>Clean Code</li>
+                <li>Adobe Photoshop</li>
+                <li>Illustrator</li>
+                <li>InDesign</li>
             </ul>
         </div>
     </div>
